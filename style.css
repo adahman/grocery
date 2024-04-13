@@ -1,0 +1,46 @@
+html{background-color:orange;height: 100vh}
+
+
+body{min-height: 100vh;margin:0;
+}
+
+h1{color:rgb(252, 93, 35);
+  text-align: center;
+  text-decoration: underline
+}
+
+
+
+h2{display: flex;
+  background-color: bisque; 
+  font-size: xx-large;
+  box-sizing: border-box;
+  border: solid black;
+  margin: 20px;
+  justify-content: left;
+  padding: 5px
+}
+
+h3{font-size: larger;}
+
+img {
+    width: 25%;
+    padding: 20px;
+  }
+
+#CannedAndDry,#VeggiesAndSnacks{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  padding:20px;
+}
+
+#canned,#dry,#veggies,#snacks{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: gainsboro;
+  box-sizing: border-box;
+  border: solid black;
+  padding: 20px;
+}
